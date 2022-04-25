@@ -24,6 +24,6 @@ stages:
         containerRegistry: 'dockerHub-lglearn-conn'
         repository: 'angular-app-kubernetes'
         command: 'buildAndPush'
-        Dockerfile: '**/Dockerfile'
+        Dockerfile: 'Dockerfile'
 # Build a Docker image
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
